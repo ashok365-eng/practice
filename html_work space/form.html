@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>forms</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        .div1 {
+            text-align: center;
+            margin: 10px;
+            border: 10px solid green;
+            width: 200px;
+            position: relative;
+            left: 40%;
+            background-color: honeydew;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    </style>
+</header>
+
+<body>
+    <div class="div1">
+        <h1>form</h1>
+        <form action="/">
+            <label for=" fname ">firstname:</label>
+            <input type="text " value=" " placeholder="firstname " id="fname "><br>
+            <label for="lname ">lastname:</label>
+            <input type="text " value=" " placeholder="lastname " id="lname "><br>
+            <label class="a" for="#3 ">choose a gender:</label>
+            <select class="a" name="#3 " id="#3 ">
+                <option value="male "> male</option> 
+                <option value="female ">female</option>
+            </select><br>
+            <label class="a" for="date"> dob:</label><input class="b" type="date" id="date " name="date "><br>
+            <input type="radio" id="country" name="nationality" value="india">
+            <label class="a" for="country ">india</label><br>
+            <input type="radio" id="country1" name="nationality" value="others">
+            <label class="a" for="country1 ">others</label><br>
+            <address class="a">
+<label class="a" for="adress ">Adress:</label>
+<input class="b" type="text " placeholder="village "  ><br>
+<input class="b" type="number "       placeholder="doornumber "  ><br>
+<input class="b" type="text " placeholder="mandal "><br>
+<input class="b" type="text " placeholder="distirct "><br>
+<input  class="b" type="number " placeholder="pincode "><br>
+</address><br><br>
+            <div class="div2">
+                <div>
+                    <input class="b1" type="checkbox" id="1" name="skill1">
+                    <label for="1">html</label>
+                </div>
+                <div>
+                    <input class="b1" type="checkbox" id="2" name="skill2">
+                    <label for="2">css</label>
+                </div>
+                <div>
+                    <input class="b1" type="checkbox" id="3" name="skill3">
+                    <label for="3">js</label>
+                </div>
+                <input type="submit" value="Submit ">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

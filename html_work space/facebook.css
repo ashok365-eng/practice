@@ -1,0 +1,47 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.control {
+    margin-top: 240px;
+    margin-left: 150px;
+}
+
+h1 {
+    color: #1877f2;
+    font-size: 55px;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.container {
+    background-color: white;
+    width: 390px;
+    height: 300px;
+}
+
+.fb-header {
+    position: width: 100%;
+    height: 90px;
+    position: absolute;
+    background: #3d5b99;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 7;
+    font-family: verdana;
+}
+
+#forms {
+    float: right;
+    margin-right: px;
+    margin-top: 50px;
+}

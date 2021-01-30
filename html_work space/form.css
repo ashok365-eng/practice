@@ -1,0 +1,14 @@
+.b {
+    /* padding: 5px; */
+    margin-top: 5px;
+}
+
+.b1 {
+    margin-left: auto;
+}
+
+.div2>div {
+    text-align: left;
+    position: relative;
+    left: 40%;
+}
